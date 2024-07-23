@@ -1,0 +1,234 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.navbar-brand.logo {
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    margin-left: 20px;
+}
+
+.logo-img {
+    height: 80px;
+    margin-right: 5 px;
+}
+
+.carousel-item img {
+    margin: 0 10px;
+    padding: 0;
+    height: 90vh;
+    object-fit: cover;
+
+}
+
+.carousel-inner img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul li i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+/* Estilos específicos para la sección de mantenimiento */
+.mantenimiento .card {
+    height: 400px;
+}
+
+.mantenimiento .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contacto p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.contacto .row {
+    margin-bottom: 20px;
+}
+
+.contacto .row .col-md-6 {
+    padding: 0 15px;
+}
+
+.contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contacto ul li i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.social-media h3 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Ajustes para el formulario */
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+.contacto .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto .col-md-6 {
+    flex: 1;
+}
+
+.contacto .col-md-6:first-of-type {
+    margin-right: 15px;
+}
+
+.contacto .col-md-6:last-of-type {
+    margin-left: 15px;
+}
+.info-contacto {
+    margin: 40px 0; 
+}
+
+
+.footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
