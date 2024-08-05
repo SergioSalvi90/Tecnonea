@@ -24,20 +24,20 @@ header {
 .carousel-item img {
     margin: 0 10px;
     padding: 0;
-    height: 90vh;
+    height: 70vh;
     object-fit: cover;
 
 }
 
 .carousel-inner img {
-    height: auto;
+    height: 80vh;
     width: 100%;
     object-fit: cover;
-    border-radius: 2%;
+    padding: 5px;
 }
 
 section {
-    padding: 60px 0;
+   margin: 5px;
 }
 
 h2 {
@@ -89,11 +89,13 @@ ul li i {
 .card-body {
     text-align: center;
     padding: 20px;
+    min-height: 100px
 }
 
 .card-title {
     font-size: 1.25rem;
     color: #333;
+    font-weight: 600;
 }
 
 /* Estilos específicos para la sección de mantenimiento */
