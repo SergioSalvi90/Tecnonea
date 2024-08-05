@@ -149,3 +149,29 @@ ul li i {
     margin: 0;
     color: #555;
 }
+
+
+/* Media Queries para el carrusel */
+@media (max-width: 1200px) {
+    .carousel-item img, .carousel-inner img {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item img, .carousel-inner img {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item img, .carousel-inner img {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img, .carousel-inner img {
+        height: 30vh;
+    }
+}
